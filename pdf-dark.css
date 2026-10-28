@@ -1,0 +1,15 @@
+@page { size: letter; margin: 0; }
+@media print {
+ html { font-size: 10pt; background:#24292e !important; }
+ body, .markdown-body, .github-markdown-body { background:#24292e !important; color:#e6edf3 !important; font-size:10pt !important; line-height:1.32 !important; margin:0 !important; padding:0.34in !important; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+ h1,h2,h3,h4 { break-after:avoid-page;page-break-after:avoid; color:inherit; }
+ h1 {font-size:22pt;line-height:1.08;margin:.16in 0 .10in} h2 {font-size:15.5pt;line-height:1.14;margin:.15in 0 .07in} h3 {font-size:12pt;line-height:1.18;margin:.11in 0 .05in} h4 {font-size:10.5pt;margin:.07in 0 .025in}
+ p {margin:.035in 0 .075in;orphans:3;widows:3} ul,ol {margin:.035in 0 .075in;padding-left:.24in} li {margin:.012in 0;orphans:2;widows:2}
+ blockquote {font-size:9.2pt;margin:.04in 0 .08in;padding:.025in .1in;color:#b1bac4;background:#30363d;border-left:3px solid #444c56}
+ hr {border:0;border-top:1px solid #444c56;margin:.12in 0}
+ table {width:100%;font-size:8.7pt;line-height:1.24;margin:.045in 0 .085in;break-inside:avoid-page;border-collapse:collapse}
+ th,td {padding:.04in .055in;vertical-align:top;border:1px solid #444c56}
+ .mermaid {margin:.035in auto .075in !important;text-align:center;break-inside:avoid-page}
+ .mermaid svg {display:block;width:auto !important;height:auto !important;max-width:100% !important;max-height:5.45in !important;margin:0 auto}
+ a {color:#58a6ff;overflow-wrap:anywhere} pre {break-inside:avoid-page;white-space:pre-wrap}
+ }
