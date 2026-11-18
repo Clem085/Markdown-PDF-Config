@@ -1,0 +1,109 @@
+{
+    /* Default settings.json Location:
+        Windows: %APPDATA%\Code\User\settings.json 
+        Linux: $HOME/.config/Code/User/settings.json
+    */
+
+    // ============================================================
+    // Markdown Formatting Settings
+    // Synced across Windows + Linux
+    // ============================================================
+    "markdown-preview-github-styles.colorTheme": "auto",
+    "markdown.preview.scrollEditorWithPreview": false,
+    "markdown.preview.scrollPreviewWithEditor": false,
+    "markdown-pdf-plus.pageSize": "letter",
+    "markdown-pdf-plus.usePageStyleFromCSS": true,
+    // Toggle one of the two lines below to select light or dark theme for PDF Exports
+    "markdown-pdf-plus.CSSPath": "~/.config/Code/markdown-themes/pdf-dark.css",
+    "markdown-pdf-plus.outputHome": "./pdfs/dark",
+    // "markdown-pdf-plus.CSSPath": "~/.config/Code/markdown-themes/pdf-light.css",
+    // "markdown-pdf-plus.outputHome": "./pdfs/light",
+    "markdown-pdf-plus.outputFilename": "",
+
+    // ============================================================
+    // Compare Folders Extension Settings
+    // ============================================================
+
+    "compareFolders.compareContent": true,
+    "compareFolders.showIdentical": false,
+    "compareFolders.defaultDiffViewMode": "tree",
+    "compareFolders.showFileCount": true,
+    "compareFolders.warnBeforeDelete": true,
+    "compareFolders.warnBeforeTake": true,
+    "compareFolders.ignoreLineEnding": false,
+    "compareFolders.ignoreWhiteSpaces": false,
+    "compareFolders.excludeFilter": [
+        "**/.git",
+        "**/build",
+        "**/dist",
+        "**/.cache"
+    ],
+    "scm.repositories.selectionMode": "single",
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.pdf": "pdf.preview"
+    },
+    
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+
+    "explorer.confirmPasteNative": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.profiles.linux": {
+        "zsh": {
+            "path": "/usr/bin/zsh",
+            "args": []
+        }
+    },
+
+    "workbench.colorTheme": "Monokai Vibrant",
+    "workbench.colorCustomizations": {
+        "activityBar.foreground": "#aaaaaa",
+        "activityBar.inactiveForeground": "#c00000",
+        "button.background": "#ff0000",
+        "button.hoverBackground": "#c00000",
+        "commandCenter.activeBorder": "#ff0000"
+    },
+
+    "search.showLineNumbers": true,
+
+    "git.confirmSync": false,
+    "git.openRepositoryInParentFolders": "always",
+
+    "hediet.vscode-drawio.resizeImages": null,
+    "hediet.vscode-drawio.appearance": "dark",
+
+    // PlatformIO IDE
+    "platformio-ide.useBuiltinPIOCore": true,
+    "platformio-ide.useBuiltinPython": true,
+    "platformio-ide.pioHomeServerHttpHost": "127.0.0.1",
+    "platformio-ide.pioHomeServerHttpPort": 0,
+
+    "http.proxyStrictSSL": true,
+
+    "cSpell.userWords": [
+        "backplane",
+        "CHMC",
+        "Crossfield",
+        "frus",
+        "GPIOA",
+        "GPIOB",
+        "GPIOC",
+        "IPMB",
+        "Murilo"
+    ],
+
+    "update.enableWindowsBackgroundUpdates": false,
+    "chat.viewSessions.orientation": "stacked",
+    "chat.agentHost.codexAgent.enabled": true,
+    "chat.agent.enabled": false,
+    "python.analysis.typeCheckingMode": "standard",
+    "window.confirmSaveUntitledWorkspace": false,
+    "git.enableSmartCommit": true
+    
+}
